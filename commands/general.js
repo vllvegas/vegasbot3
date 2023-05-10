@@ -55,16 +55,16 @@ cmd({
     },
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
-        let cap = `*🌐 𝗣𝗥𝗔𝗕𝗔𝗧𝗛-𝗠𝗗 _𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ♦️*
+        let cap = `*🌐 VEGASFORUM ♦️*
 
-●. *Support group :* https://chat.whatsapp.com/KwFkWjI8qJ6B174esar8IM
+●. *Online Grup :* https://chat.whatsapp.com/CYuUPNdztoVJjGnrnk5n4f
 
-●. *Github:* https://github.com/PrabathLK/PRABATH_MD
+●. *Website:* https://vllvegas.xyz
 
-●. *Developer:* https://github.com/PrabathLK
+●. *Kurucu:* VEGAS | VEGASFORUM
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+
+Project By Vegas 
 `
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -171,8 +171,7 @@ cmd({
 .logo30 text
 
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Project By Vegas
 `,
 
                 footer: tlang().footer,
@@ -257,106 +256,106 @@ cmd({
                 
 
 📟 *Command:-* .sticker
-ℹ️ *Description:-* Photo To Sticker Made
-🔥 *Help:-* .sticker Mention Any Photo or Video
+ℹ️ *Description:-* Fotoğrafı Etiketleyetek Deneyin 
+🔥 *Help:-* .sticker Herhangi Bir Fotoğraf Veya Videodan Bahset 
 
 
 📟 *Command:-* .promote
-ℹ️ *Description:-* promote Admin
-🔥 *Help:-* .promote Tag Any User 
+ℹ️ *Description:-* Yöneticiyi Terfi Ettir 
+🔥 *Help:-* .promote Herhangi Bir Kullanıcıyı Etiketle  
 
 
 📟 *Command:-* .demote
-ℹ️ *Description:-* Demote Admin
-🔥 *help:-* .promote tag Any User 
+ℹ️ *Description:-* Yönetici Seviyesini Düşür 
+🔥 *help:-* .promote Herhangi Bir Kullanıcıyı Etiketle  
 
 
 📟 *Command:-* .ban
-ℹ️ *Description:-* Cmd Block Use 
-🔥 *Help:-* .ban tag Any User
+ℹ️ *Description:-* Kullanıcıyı Banlar
+🔥 *Help:-* .ban Herhangi Bir Kullanıcıyı Etiketle 
 
 
 📟 *Command:-* .unban
-ℹ️ *Description:-* Loked User Unblock
-🔥 *Help:-* .unban Tag Any User
+ℹ️ *Description:-* Kilitli Kullanıcı Engellemesini Kaldırır 
+🔥 *Help:-* .unban Herhangi Bir Kullanıcıyı Etiketle 
 
 
 📟 *Command:-* .kick
-ℹ️ *Description:-* Remove Participants On Group
-🔥 *Help:-* .kick Tag Any User
+ℹ️ *Description:-* Gruptaki Kullanıcıyı Kaldırır
+🔥 *Help:-* .kick Herhangi Bir Kullanıcıyı Etiketle 
 
 
 📟 *Command:-* .add
-ℹ️ *Description:-* Add Participants On Group
-🔥 *Help:-* .add Mobile number
+ℹ️ *Description:-* Gruba Katılımcı Ekler
+🔥 *Help:-* .add WhatsApp Numarası 
 
 
 📟 *Command:-* .poll
-ℹ️ *Description:-* Create poll For Group
-🔥 *Help:-* .poll question option1 option2 option3
+ℹ️ *Description:-* Grup İçin Anket Oluşturur
+🔥 *Help:-* .poll Soru Seçenek1 Seçenek2 Seçenek3 
 
 
 📟 *Command:-* .profile
-ℹ️ *Description:-* Profile Imfomation Get
-🔥 *Help:-* .profile Tag Any user
+ℹ️ *Description:-* Profilden Bilgi Alır 
+🔥 *Help:-* .profile Herhangi Bir Kullanıcıyı Etiketle 
 
 
 📟 *Command:-* .group
-ℹ️ *Description:-* Group Mute or Unmute
+ℹ️ *Description:-* Group Sesi Kapatır veya Sesi Açar
 🔥 *Help:-* .group
 
 
 📟 *Command:-* .gdp
-ℹ️ *Description:-* Group Profile Photo Change
-🔥 *Help:-* .gdp Tag Any photo
+ℹ️ *Description:-* Group Profil Fotoğrafı Değiştirir
+🔥 *Help:-* .gdp Herhangi Bir Fotoğrafı Etiketle 
 
 
 📟 *Command:-* .del
-ℹ️ *Description:-* Delete message
+ℹ️ *Description:-* Mesajı Siller 
 🔥 *Help:-* .del tag message
 
 
 📟 *Command:-* .antilink
-ℹ️ *Description:-* Link Remover
-🔥 *Help:-* .antilink Active or Deactive
+ℹ️ *Description:-* Bağlantıları Engeller
+🔥 *Help:-* .antilink Active veya Deactive
 
 
 📟 *Command:-* .tag
-ℹ️ *Description:-* Tag All Group Users
+ℹ️ *Description:-* Tag Tüm Grup Kullanıcıları Etiketler
 🔥 *Help:-* .tag
 
 
 📟 *Command:-* .getjids
-ℹ️ *Description:-* Get Jid
+ℹ️ *Description:-* Jid'i alır
 🔥 *Help:-* .getjids
 
 
 📟 *Command:-* .rank
-ℹ️ *Description:-* Check Rank
-🔥 *Help:-* .rank Tag Any User
+ℹ️ *Description:-* Sıralamayı Kontrol Eder
+🔥 *Help:-* .rank Herhangi Bir Kullanıcıyı Etiketle 
 
 
 📟 *Command:-* .setwelcome
-ℹ️ *Description:-* Welcome message Change
-🔥 *Help:-* .setwelcome Your welcome Message
+ℹ️ *Description:-* Karşılama Mesajı Değiştirir
+🔥 *Help:-* .setwelcome hoş geldiniz mesajınız 
 
 
 📟 *Command:-* .setgoodbye
-ℹ️ *Description:-* goodbye message change 
-🔥 *Help:-* .setgoodbye Your Goodbye Message
+ℹ️ *Description:-* Ayrılma Mesajı Değiştirir 
+🔥 *Help:-* .setgoodbye Hoşçakal Mesajınız 
 
 
 📟 *Command:-* .gs
-ℹ️ *Description:-* Group settings change
+ℹ️ *Description:-* Grup Ayarları Değişikliği Yapar 
 🔥 *Help:-* .gs
 
 
 📟 *Command:-* .settings
-ℹ️ *Description:-* change group settings
+ℹ️ *Description:-* Grup Ayarlarını Değiştirir
 🔥 *Help:-* .settings
 
 
-⦿. *REQUEST BY:* ${citel.pushName}
+⦿. *Project By :* ${citel.pushName}
 
 `,
 
@@ -414,11 +413,11 @@ cmd({
                 caption: `
 
 ┌────────────────────────────
-│  👨‍💻 *PRABATH-MD* 👨‍💻  *COMMANDS* 🎗️
+│  👥 VegasBot Komutları
 └────────────────────────────
 
 
-┌─(📥 ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(📥 Görüntü Komutları )
 │.song
 │.video
 │.apk
@@ -430,14 +429,14 @@ cmd({
 │.mp4down
 │.fbs
 └─────────◉
-┌─(🔍 ꜱᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(🔍 Arama Komutları )
 │.findvideo
 │.findsong
 │.yts
 │.weather
 │.movie
 └─────────◉
-┌─(🧰 ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(🧰 Fotoğraf Komutları )
 │.sticker
 │.attp
 │.ttp
@@ -445,7 +444,7 @@ cmd({
 │.ss
 │.trt
 └─────────◉
-┌─(👥 ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(👥 Kullanıcı Komutları )
 │.kick
 │.promote
 │.demote
@@ -459,7 +458,7 @@ cmd({
 │.del
 │.gdp
 └─────────◉
-┌─(🧑‍💻 ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(🧑‍💻 Admin Komutları )
 │.ujid
 │.block
 │.unblock
@@ -469,11 +468,11 @@ cmd({
 │.dnote
 │.dallnote
 └─────────◉
-┌─( 🎮 ɢᴀᴍᴇ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─( 🎮 Oyun Komutları )
 │.xo
 │.dadu
 └─────────◉
-┌─(💬 ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(💬 Diğer Komutlar )
 │.alive
 │.rank
 │.profile
@@ -483,8 +482,7 @@ cmd({
 │.sn
 └─────────◉
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Project By Vegas
 `,
 
                 footer: tlang().footer,
@@ -537,28 +535,27 @@ cmd({
                 caption: `
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━
-┃  *GROUP SETTINGS CHANGE*
+┃  *GRUP AYARLARINI DEĞİŞTİR*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 
-🔇 *MUTE GROUP -* .group close
-🔊 *UNMUTE GROUP -* .group open
+🔇 *GRUBU SUSTUR  -* .group close
+🔊 *GRUBU AKTİFLEŞTİR -* .group open
 
 
-✅ *ACTIVE ANTILINK -* .act antilink
-❌ *DEACTIVE ANTILINK -* .deact antilink
+✅ *ANTİLİNK AKTİFLEŞTİR -* .act antilink
+❌ *ANTİLİNK KAPAT -* .deact antilink
 
 
-✅ *ACTIVE BOT THIS GROUP -* .bot on
-❌ *DEACTIVE BOT THIS GROUP -* .bot off
+✅ *BU GRUPTA BOTU AKTİF EDER -* .bot on
+❌ *BU GRUPTA BOTU KAPATIR -* .bot off
 
 
-✅ *ACTIVE ADD AND LEFT MSJ -* .act events
-❌ *DEACTIVE ADD AND LEFT MSJ -* .deact events
+✅ *AKTİF EKLE VE SOL MSJ  -* .act events
+❌ *EKLE VE SOL MSJ'Yİ DEVRE DIŞI BIRAK -* .deact events
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
-ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
+Project By Vegas 
 `,
 
 
@@ -639,61 +636,61 @@ cmd({
                 caption: `
 
 📟 *Command:-* .install
-ℹ️ *Description:-* Install Plugins
-🔥 *Help:-* .install Plugin Url 
+ℹ️ *Description:-* Eklentileri Yükler
+🔥 *Help:-* .install Eklentinin Linkini Girin
 
 
 📟 *Command:-* .plugins
-ℹ️ *Description:-* Install Plugins View 
+ℹ️ *Description:-* Eklenti Görünümünü Yükler
 🔥 *Help:-* .plugins 
 
 
 📟 *Command:-* .block
-ℹ️ *Description:-* Block User 
-🔥 *Help:-* .block Tag user or PM Chat
+ℹ️ *Description:-* Kullanıcıyı Engeller
+🔥 *Help:-* .block Kullanıcıyı Etiketle Veya Özelden Yazın
 
 
 📟 *Command:-* .unblock
-ℹ️ *Description:-* Unblock User
-🔥 *Help:-* .unblock Tag user or PM Chat
+ℹ️ *Description:-* Kullanıcının Engellini Kaldırır
+🔥 *Help:-* .unblock Kullanıcıyı Etiketle Veya Özelden Yazın
 
 
 📟 *Command:-* .remove
-ℹ️ *Description:-* Remove Plugins 
-🔥 *Help:-* .remove plugin url
+ℹ️ *Description:-* Eklentiyi Kaldırır 
+🔥 *Help:-* .remove Eklentinin Linkini Girin
 
 
 📟 *Command:-* .join
-ℹ️ *Description:-* Join Group Using Whatsapp group url 
-🔥 *Help:-* .join whatsapp group url
+ℹ️ *Description:-* Whatsapp Grup URL'sini Kullanarak Gruba Katılır
+🔥 *Help:-* .join Grup Urlsini Yazın
 
 
 *📟Command:-* .restart
-ℹ️ *Description:-* Restart Bot 
+ℹ️ *Description:-* Botu Yeniden Başlatır
 🔥 *Help:-* .restart
 
 
 📟 *Command:-* .save
-ℹ️ *Description:-* Save notes from mongodb 
+ℹ️ *Description:-* mongodb'dan Notları Kaydeder  
 🔥 *Help:-* .save prabath-md
 
 
 📟 *Command:-* .get
-ℹ️ *Description:-* Get saved notes
+ℹ️ *Description:-* Kayıtlı Notları Getirir
 🔥 *Help:-* .get
 
 
 📟 *Command:-* .dnote
-ℹ️ *Description:-* Delete saved notes
-🔥 *Help:-* .dnote ENTER NOTE ID
+ℹ️ *Description:-* Notu Siler
+🔥 *Help:-* .dnote Not ID'sini Girer
 
 
 📟 *Command:-* .dallnote
-ℹ️ *Description:-* Delete all saved notes
+ℹ️ *Description:-* Tüm Kayıtlı Notları Siler
 🔥 *Help:-* .dallnote
 
 
-⦿. *REQUEST BY:* ${citel.pushName}
+⦿. *Project By:* ${citel.pushName}
 
 `,
 
@@ -778,13 +775,13 @@ cmd({
                 caption: `
 
 📟 *Command:-* .system
-ℹ️ *Description:-* system status
+ℹ️ *Description:-* sistem durumu 
 🔥 *Help:-* .system
 
 
 📟 *Command:-* .weather
-ℹ️ *Description:-* weather test 
-🔥 *Help:-* .weather Your location
+ℹ️ *Description:-* Havadurumu Bildirir
+🔥 *Help:-* .weather Konumunu Yaz
 
 
 📟 *Command:-* .eval
@@ -793,12 +790,12 @@ cmd({
 
 
 📟 *Command:-* .chat
-ℹ️ *Description:-* Chat Bot
-🔥 *Help:-* . .chat  Bot
+ℹ️ *Description:-* Sohbet Botu
+🔥 *Help:-* . .chat bot
 
 
 📟 *Command:-* .trt
-ℹ️ *Description:-* Google translate  
+ℹ️ *Description:-* Google Çeviri 
 🔥 *Help:-* .trt active
 
 
@@ -887,13 +884,13 @@ cmd({
                 caption: `
 
 📟 *Command:-* .trt
-ℹ️ *Description:-* Any language trt to sinhala
-🔥 *Help:-* .trt mantion text
+ℹ️ *Description:-* Çeviri Yapar
+🔥 *Help:-* .trt Bir Yazı Seç
 
 
 📟 *Command:-* .sticker
-ℹ️ *Description:-* Photo or video to sticker 
-🔥 *Help:-* .sticker mantion image
+ℹ️ *Description:-* Fotoğraf Veya Videoyu Sticker Yapar
+🔥 *Help:-* .sticker Video Veya Fotoğraf Etiketle
 
 ⦿. *REQUEST BY:* ${citel.pushName}
 
@@ -969,7 +966,7 @@ cmd({
 
 
 
-මොනවද පගෝ බලන්නෙ 😹💔
+BayBay 😹💔 
 
 `,
 
